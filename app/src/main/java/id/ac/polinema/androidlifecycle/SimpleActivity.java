@@ -19,7 +19,7 @@ public class SimpleActivity extends AppCompatActivity {
 
     public void handleSubmit(View view) {
         String name = nameInput.getText().toString();
-        outputText.setText("Hello " + name);
+        outputText.setText("Hello !! " + name);
     }
 
     // Mendeklarasikan atribut dengan nama nameInput dengan tipe EditText
